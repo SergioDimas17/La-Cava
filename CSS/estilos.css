@@ -1,0 +1,768 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@media screen and (max-width:3000px){
+    *{
+box-sizing: border-box;
+}}
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        background: #485563;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
+ 
+    }
+ 
+    .cabecero{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+ 
+    }
+
+    .menu{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#2a292e; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+   
+      
+    
+    }
+
+    .menu li{
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .menu a{
+        font-size: 2em;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        margin-bottom: 10px;
+       
+    }   
+    
+    .text span{
+        color: gold;
+        text-shadow: 0px 0px 10px gold,
+        0px 0px 20px gold,
+        0px 0px 40px gold,
+        0px 0px 80px gold;
+        font-size: 2em;
+        align-items: center;
+       
+    }
+    
+    .menu h3{
+        color: gold;
+        text-shadow: 0px 0px 10px rgb(233, 231, 220),
+        0px 0px 20px rgb(215, 213, 202),
+        0px 0px 40px rgb(216, 215, 209),
+        0px 0px 80px rgb(218, 216, 209);
+        
+    }
+
+    .menu li:hover a{
+        text-shadow: 0px 0px 10px gold,
+        0px 0px 20px gold,
+        0px 0px 40px gold,
+        0px 0px 80px gold;
+        
+    }
+   
+ 
+    .centro{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        line-height: 1;
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 10em;
+
+    }
+
+    .frases{
+        width: 50%;
+        max-width: 50%;
+        box-sizing: border-box;
+        font-size: clamp(1.5rem, 3.4783vw + 0.3043rem, 1rem);
+        line-height: 1.5em;
+        text-align:center;
+        padding: 50px;
+
+    }
+    
+    .video{
+
+        width: 60%;
+        max-width: 60%;
+        padding: .9em;
+        border-radius: 100%;
+        background-color: #2a292e;
+       
+    }
+
+    .video-fondo{
+        width: 100%;
+        opacity: 75%;
+        border-radius: 100%;
+    }
+    .centro h2{
+        color: gold;
+    
+    }
+      
+    .centro h3{
+        color: white;
+        
+    }
+
+    .centro p{
+        color: white;
+        
+    }
+   
+    .etiquetas{
+        width: 100%;
+        display: flex;
+        gap: 3%;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 150px;
+
+    }
+
+    .etiquetas span{
+        width: 50%;
+
+        color: gold;
+        font-size: 85px;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        
+    }
+
+    .ingredientes{
+        text-align: center;
+    }
+
+    .ingredientes h4 {
+        font-size: 2em;
+        color: gold;
+    }
+   
+    .ingredientes p {
+        font-size: 1.5em;
+       
+      }
+   
+    .comida{
+        text-align: center;
+    }
+    .comida h4 {
+        font-size: 2em;
+        color: gold;
+       
+      }
+     
+    .comida p {
+        font-size: 1.5em;
+         
+    }
+    .lugar{
+        text-align: center;
+    }
+    .lugar h4 {
+        font-size: 2em;
+           color: gold;
+    }
+         
+    .lugar p {
+        font-size: 1.5em;
+             
+    }
+    
+    .contenedor{
+        color: white;
+        text-align: center;
+        padding-top: 6em;
+        padding-bottom: 3em;
+
+       
+    }
+
+    .titulo{
+        color: gold;
+        font-size: 1.7em;
+    }
+
+    .imagen img{
+        width: 50em;
+        opacity: 70%;
+    }
+
+    .oraciones{
+        font-size: 2em;
+        padding-top: 2em;
+
+    }
+    .icon span{
+        font-size: 2em;
+    }
+
+    .nuestro h1{
+        color: gold;
+        text-align: center;
+        font-size: 3em;
+        padding-top: 1.5em ;
+    }
+
+    .variedad{
+        width: 100%;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        padding-top: 1em;
+   
+       
+       
+    }
+
+
+    .variedad h2, h3, p {
+        color: rgb(255, 255, 255);
+    }
+
+    .platos h1{
+        color: white;
+        text-align: center;
+        font-size: 2.2em;
+    }
+    .platos{
+        width: 35%;
+        align-items: center;
+        text-align: center;
+        position: sticky;
+    }
+
+    .platos img{
+        width: 11em;
+        height: 25vh;
+        object-fit: cover;
+    }
+
+    .platos i{
+        color: gold;
+       
+    }
+    .plato1{
+        display: flex;
+        margin: 1em 1em;
+        padding: 1em 1em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .plato1 img{
+        border: solid white 3px;
+        
+    }
+
+    .plato1 h3{
+       padding: 1em 1.8em;
+       line-height: 1em; 
+        font-size: 1.5em;
+    
+        
+    }
+
+    .plato1 p{
+        padding: 1em 1.8em;
+        line-height: .6em; 
+        font-size: 1em;
+        text-align:justify;
+        line-height: 1;
+        
+    }
+
+    .plato1 p1{
+        color: gold;
+        font-size: 1.7em;
+    }
+    .recuadro1{
+        background-color:#151A27;
+        margin: 1em 1em;
+        
+    }
+
+    .plato2{
+        display: flex;
+        margin: 1em 1em;
+        padding: 1em 1em;
+        align-items: center;
+        text-align: center;
+    }
+    .plato2 img{
+        border: solid white 3px;
+        
+    }
+    .plato2 h3{
+        padding: 1em 1.8em;
+        line-height: 1em; 
+        font-size: 1.5em;
+    }
+
+    .plato2 P{
+        padding: 1em 1.8em;
+        line-height: .6em; 
+        font-size: 1em;
+        text-align:justify;
+        line-height: 1;
+    }
+
+    .plato2 p1{
+        color: gold;
+        font-size: 1.7em;
+    }
+    .recuadro2{
+        background-color:#151A27;
+        margin: 1em 1em;
+        
+    }
+
+    .plato3{
+        display: flex;
+        margin: 1em 1em;
+        padding: 1em 1em;
+        align-items: center;
+        text-align: center;
+    }
+    .plato3 img{
+        border: solid white 3px;
+        
+    }
+
+    .plato3 h3{
+        padding: 1em 1.8em;
+        line-height: 1em; 
+        font-size: 1.5em;   
+    }
+
+    .plato3 P{
+        padding: 1em 1.8em;
+        line-height: .6em; 
+        font-size: 1em;
+        text-align:justify;
+        line-height: 1;
+    }
+
+    .plato3 p1{
+        color: gold;
+        font-size: 1.7em;
+    }
+    .recuadro3{
+        background-color:#151A27;
+        margin: 1em 1em;
+        
+    }
+
+    .plato4{
+        display: flex;
+        margin: 1em 1em;
+        padding: 1em 1em;
+        align-items: center;
+        text-align: center;
+    }
+    .plato4 img{
+        border: solid white 3px;
+        
+    }
+
+    .plato4 h3{
+        padding: 1em 1.8em;
+        line-height: 1em; 
+        font-size: 1.5em;
+    }
+
+    .plato4 P{
+        padding: 1em 1.8em;
+        line-height: .6em; 
+        font-size: 1em;
+        text-align:justify;
+        line-height: 1;
+    }
+    .plato4 p1{
+        color: gold;
+        font-size: 1.7em;
+    }
+    .recuadro4{
+        background-color:#151A27;
+        margin: 1em 1em;
+        
+    }
+
+    
+    .bebidas h1{
+        color: white;
+        text-align: center;
+        font-size: 2.2em;
+    }
+    .bebidas{
+        width: 35%;
+        align-items: center;
+        text-align: center;
+    }
+    .bebidas img{
+        width: 11em;
+        height: 25vh;
+        object-fit: cover;
+       
+    }
+
+   
+    .bebidas i{
+        color: gold;
+    }
+
+    .bebida1{
+        display: flex;
+        margin: 1em 1em;
+        padding: 1em 1em;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .bebida1 img{
+        border: white solid 3px;
+    }
+    .bebida1 h3{
+        padding: 1em 1.8em;
+        line-height: 1em; 
+        font-size: 1.5em;
+    }
+
+    .bebida1 p{
+        padding: 1em 1.8em;
+        line-height: .6em; 
+        font-size: 1em;
+        text-align:justify;
+        line-height: 1;
+        
+    }
+
+    .bebida1 p1{
+        color: gold;
+        font-size: 1.7em;
+    }
+    .recuadro5{
+        background-color:#151A27;
+        margin: 1em 1em;
+        
+    }
+
+    .bebida2{
+        display: flex;
+        margin: 1em 1em;
+        padding: 1em 1em;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .bebida2 img{
+        border: white solid 3px;
+    }
+
+    .bebida2 h3{
+        padding: 1em 1.8em;
+        line-height: 1em; 
+        font-size: 1.5em;
+    }
+
+    .bebida2 p{
+        padding: 1em 1.8em;
+        line-height: .6em; 
+        font-size: 1em;
+        text-align:justify;
+        line-height: 1;
+        
+    }
+    .bebida2 p1{
+        color: gold;
+        font-size: 1.7em;
+    }
+    .recuadro6{
+        background-color:#151A27;
+        margin: 1em 1em;
+        
+    }
+    .bebida3{
+        display: flex;
+        margin: 1em 1em;
+        padding: 1em 1em;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .bebida3 img{
+        border: white solid 3px;
+    }
+    .bebida3 h3{
+        padding: 1em 1.8em;
+        line-height: 1em; 
+        font-size: 1.5em;
+    }
+
+    .bebida3 p{
+        padding: 1em 1.8em;
+        line-height: .6em; 
+        font-size: 1em;
+        text-align:justify;
+        line-height: 1;
+          
+    }
+
+    .bebida3 p1{
+        color: gold;
+        font-size: 1.7em;
+    }
+    .recuadro7{
+        background-color:#151A27;
+        margin: 1em 1em;
+        
+    }
+
+    .bebida4{
+        display: flex;
+        margin: 1em 1em;
+        padding: 1em 1em;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .bebida4 img{
+        border: white solid 3px;
+    }
+
+    .bebida4 h3{
+        padding: 1em 1.8em;
+        line-height: 1em; 
+        font-size: 1.5em;
+    }
+
+    .bebida4 p{
+        padding: 1em 1.8em;
+        line-height: .6em; 
+        font-size: 1em;
+        text-align:justify;
+        line-height: 1;
+        
+    }
+   
+    .bebida4 p1{
+        color: gold;
+        font-size: 1.7em;
+    }
+    .recuadro8{
+        background-color:#151A27;
+        margin: 1em 1em;
+        
+    }
+
+    .t1{
+        text-align: center;
+        font-size: 3em;
+        color: gold;
+        padding-top: 1em;
+        padding-bottom: .5em;
+     } 
+
+    .carrusel {
+       align-items: center;
+       align-content: center;
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       overflow: hidden;
+    
+    }
+
+ 
+      
+      .item img {
+        width: 800px;
+        height: 80vh;
+
+    }
+      
+    .t2{
+        background-color: gold;
+        text-align: center;
+        font-size: 2em;
+        color: black;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        
+     } 
+
+     .formulario{
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display:flex;
+        padding-top: 5em;
+        height: 100vh;
+        
+     }
+
+     .contorno{
+        border: 3px solid yellow;
+        width: 40em;
+        max-width: 90%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+        display: grid;
+        background-color:#20273a;
+     }
+
+     .campo1 label,
+     .campo2 label{
+        margin-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+     }
+     .campo1{
+        margin-bottom: 1em;
+        width: 30em;
+        padding: 1em;
+        display: flex;
+        gap: 10px;
+    }
+
+      .campo2{
+        margin-bottom:1em;
+        width: 30em;
+        padding: 1em;
+        display: flex;
+        gap: 10px;
+    }
+
+      input {
+        width: 100%;
+        height: 3em;
+        border:none;
+    }
+      
+      .placeholder{
+        color: rgb(225, 8, 8);
+        text-align: center;
+       
+    }
+      
+      .enviar{
+        padding: 1em 2em;
+        border: none;
+        cursor: pointer;
+        background-color: gold;
+        align-items: center;
+        margin: 1em;
+
+    }
+
+      .enviar span{
+        color: black;
+    }
+
+      .contorno span{
+        font-size: 2em;
+    }
+      
+    .info {
+        width: 100%;
+        gap: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+        font-size: 1.3em;
+        text-align: justify;
+        padding-bottom: 3em;
+        flex-wrap: nowrap; /* Permite que los elementos se envuelvan en una nueva línea en pantallas pequeñas */
+    }
+    
+    .marca {
+        flex: 1; /* Ocupa el espacio disponible igualmente */
+        text-align: center;
+    }
+    
+    .marca span {
+        padding-top: .5em;
+        color: gold;
+        text-shadow: 0px 0px 10px rgb(233, 231, 220),
+            0px 0px 20px rgb(215, 213, 202),
+            0px 0px 40px rgb(216, 215, 209),
+            0px 0px 80px rgb(218, 216, 209);
+        font-size: 3em;
+        display: grid;
+        justify-items: center;
+    }
+    
+    .enlaces,
+    .horario,
+    .contacto {
+        flex: 1; /* Ocupa el espacio disponible igualmente */
+        text-align: center;
+        padding: 1em; /* Ajusta el espacio entre los elementos */
+    }
+    
+    /* Ajusta los estilos según sea necesario */
+    .enlaces h1,
+    .horario h1,
+    .contacto h1,
+    .enlaces h4,
+    .horario h4,
+    .contacto h4 {
+        margin: 0;
+    }
+    
+
+    .final{
+        width: 100%;
+        display: flex;
+        gap: 16px;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        color: white;        
+    }
+
+    .final i{
+        cursor:pointer;
+    
+    }
+
+    .izq{
+    font-size: 1.5em;
+    }
+
+    .der {
+        margin-left: auto; 
+        font-size: 2em;
+    
+    }
+     
